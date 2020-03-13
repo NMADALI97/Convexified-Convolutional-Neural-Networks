@@ -8,6 +8,14 @@ Spoken Digit Recognition using  [Convexified Convolutional Neural Networks](http
 
 MADALI Nabil  .
 
+# Free Spoken Digit Dataset (FSDD)
+[![DOI](https://zenodo.org/badge/61622039.svg)](https://zenodo.org/badge/latestdoi/61622039)
+
+A simple audio/speech dataset consisting of recordings of spoken digits in `wav` files at 8kHz. The recordings are trimmed so that they have near minimal silence at the beginnings and ends.
+
+FSDD is an open dataset, which means it will grow over time as data is contributed.  In order to enable reproducibility and accurate citation the dataset is versioned using Zenodo DOI as well as `git tags`.
+
+
 ### Current status
 - 4 speakers
 - 2,000 recordings (50 of each digit per speaker)
@@ -26,13 +34,20 @@ Example: `7_jackson_32.wav`
 ## References
 
 ```
-@incollection{pillutla-etal:casimir:neurips2018,
-title = {A {S}moother {W}ay to {T}rain {S}tructured {P}rediction {M}odels},
-author = {Pillutla, Krishna and
-          Roulet, Vincent and 
-          Kakade, Sham M. and
-          Harchaoui, Zaid},
-booktitle = {Advances in Neural Information Processing Systems 31},
-year = {2018},
+@article{DBLP:journals/corr/ZhangLW16b,
+  author    = {Yuchen Zhang and
+               Percy Liang and
+               Martin J. Wainwright},
+  title     = {Convexified Convolutional Neural Networks},
+  journal   = {CoRR},
+  volume    = {abs/1609.01000},
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1609.01000},
+  archivePrefix = {arXiv},
+  eprint    = {1609.01000},
+  timestamp = {Fri, 03 May 2019 12:59:45 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/ZhangLW16b.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
 ```
